@@ -1,6 +1,6 @@
 # 🏥 医学教育智能体服务 (Medical Education AI Agent Service)
 
-基于大语言模型的医学教育智能体服务端，**完全兼容 OpenAI API 协议**，可直接被 **Open WebUI**、**LibreChat** 等平台调用。
+基于大语言模型的医学教育智能体服务端，**完全兼容 OpenAI API 协议**，可直接被 **Cherry Studio**、**Open WebUI**、**LibreChat** 等平台调用。
 
 ---
 
