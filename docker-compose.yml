@@ -1,0 +1,38 @@
+services:
+  medical-edu-agent:
+    image:  medical_edu_agent:1.0
+    container_name: medical-edu-agent
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    volumes:
+      - ./logs:/app/logs
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/health')"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+    networks:
+      - med-edu-net
+
+  # 可选：一同部署 Open WebUI（取消注释启用）
+  # open-webui:
+  #   image: ghcr.io/open-webui/open-webui:main
+  #   container_name: open-webui
+  #   restart: unless-stopped
+  #   ports:
+  #     - "3000:8080"
+  #   environment:
+  #     - OPENAI_API_BASE_URL=http://medical-edu-agent:8000/v1
+  #     - OPENAI_API_KEY=${SERVICE_API_KEY}
+  #   depends_on:
+  #     - medical-edu-agent
+  #   networks:
+  #     - med-edu-net
+
+networks:
+  med-edu-net:
+    driver: bridge

@@ -1,0 +1,62 @@
+Medical Education AI Agent Service License (MEAIASL)
+
+Version 1.0
+
+Copyright (c) 2026 Zhou Jun
+Author: Zhou Jun
+
+Permission is granted to use, study, and modify the Medical Education AI Agent
+Service (the “Software”) for educational, research, and non-commercial
+institutional purposes, subject to the conditions defined in this License.
+
+This license grants a limited, non-exclusive, non-transferable,
+non-sublicensable right to use the Software.
+
+Commercial use of the Software is strictly prohibited without prior written
+authorization from the Author.
+
+Commercial use includes, but is not limited to:
+
+- selling or licensing the Software
+- providing paid SaaS services
+- subscription-based services
+- integration into commercial products
+- providing paid API services
+
+You may modify and distribute the Software for non-commercial purposes,
+provided that:
+
+1. this License remains intact
+2. all copyright notices are preserved
+3. proper attribution to the Author is included
+
+You may not:
+
+- remove copyright notices
+- relicense the Software under another license
+- rebrand the Software in a way that misrepresents its origin
+- integrate core functionality into competing commercial products
+
+Commercial licensing may be obtained separately from the Author.
+
+MEDICAL DISCLAIMER
+
+The Software is intended for medical education purposes only and does not
+constitute medical diagnosis, treatment, or clinical advice.
+
+Any clinical decisions made based on the Software are the sole responsibility
+of the user.
+
+DISCLAIMER OF WARRANTY
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED.
+
+LIMITATION OF LIABILITY
+
+IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY ARISING FROM THE USE OF THE SOFTWARE.
+
+Governing Law: People's Republic of China.
+
+All rights not expressly granted are reserved.
