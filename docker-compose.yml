@@ -1,6 +1,6 @@
 services:
   medical-edu-agent:
-    image:  medical_edu_agent:1.0
+    image:  koalalove/medical-edu-agent:1.0
     container_name: medical-edu-agent
     restart: unless-stopped
     ports:
